@@ -20,8 +20,12 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -42,29 +46,43 @@ import com.almarpa.dragonballapp.resources.BackgroundPrimary
 import com.almarpa.dragonballapp.resources.Orange
 import org.koin.androidx.compose.koinViewModel
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun HomeScreen(navigateToDetail:(Int) -> Unit) {
+fun HomeScreen(navigateToDetail: (Int) -> Unit) {
     val homeViewModel: HomeViewModel = koinViewModel()
 
     val characters by homeViewModel.characters.collectAsState()
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(BackgroundPrimary.copy(alpha = 0.8f)),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text(
-            "Goku Edition",
-            modifier = Modifier.padding(4.dp),
-            fontWeight = FontWeight.Bold,
-            fontSize = 26.sp,
-            color = Color.White
-        )
-        LazyColumn(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 32.dp)) {
-            items(characters) { character ->
-                CharacterItem(character) {
-                    navigateToDetail(it.id)
+    Scaffold(
+        containerColor = BackgroundPrimary,
+        topBar = {
+            CenterAlignedTopAppBar(
+                title = {
+                    Text(
+                        "Goku Edition",
+                        modifier = Modifier.padding(4.dp),
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 26.sp,
+                        color = Orange
+                    )
+                },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = BackgroundPrimary
+                )
+            )
+        },
+    ) { paddingValues ->
+        Column(
+            modifier = Modifier
+                .padding(paddingValues)
+                .fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            LazyColumn(contentPadding = PaddingValues(horizontal = 16.dp, vertical = 32.dp)) {
+                items(characters) { character ->
+                    CharacterItem(character) {
+                        navigateToDetail(it.id)
+                    }
                 }
             }
         }
