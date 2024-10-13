@@ -15,3 +15,11 @@ This is a Kotlin Multiplatform project targeting Android, iOS.
 
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+
+Snapshots:
+<h3>
+<img src="" width=30% height=50%>
+<img src="" width=30% height=50%>
+<img src="" width=30% height=50%>
+<img src="" width=30% height=50%>
+</h3>
