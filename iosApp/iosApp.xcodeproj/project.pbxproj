@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
+		0BD9CE5B2C9F728E00E320C8 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE5A2C9F728E00E320C8 /* HomeScreen.swift */; };
+		0BD9CE5E2C9F73A400E320C8 /* KMPNativeCoroutinesAsync in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD9CE5D2C9F73A400E320C8 /* KMPNativeCoroutinesAsync */; };
+		0BD9CE602C9F73A400E320C8 /* KMPNativeCoroutinesCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD9CE5F2C9F73A400E320C8 /* KMPNativeCoroutinesCore */; };
+		0BD9CE632C9F73F200E320C8 /* KMPObservableViewModelCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD9CE622C9F73F200E320C8 /* KMPObservableViewModelCore */; };
+		0BD9CE652C9F73F200E320C8 /* KMPObservableViewModelSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD9CE642C9F73F200E320C8 /* KMPObservableViewModelSwiftUI */; };
+		0BD9CE672C9F7A5200E320C8 /* KMPObservableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE662C9F7A5200E320C8 /* KMPObservableViewModel.swift */; };
+		0BD9CE692C9F930900E320C8 /* CharacterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE682C9F930900E320C8 /* CharacterItem.swift */; };
+		0BD9CE6B2C9F944200E320C8 /* DiamongShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE6A2C9F944200E320C8 /* DiamongShape.swift */; };
+		0BD9CE6E2C9F96B700E320C8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD9CE6D2C9F96B700E320C8 /* Kingfisher */; };
+		0BD9CE712CA1F49D00E320C8 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE702CA1F49D00E320C8 /* DetailScreen.swift */; };
+		0BD9CE732CA1FDBE00E320C8 /* LabelInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE722CA1FDBE00E320C8 /* LabelInformation.swift */; };
+		0BD9CE752CA1FEF500E320C8 /* IconInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE742CA1FEF500E320C8 /* IconInformation.swift */; };
+		0BD9CE772CA203D100E320C8 /* TransformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9CE762CA203D100E320C8 /* TransformationView.swift */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
@@ -16,6 +29,14 @@
 /* Begin PBXFileReference section */
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BD9CE5A2C9F728E00E320C8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		0BD9CE662C9F7A5200E320C8 /* KMPObservableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMPObservableViewModel.swift; sourceTree = "<group>"; };
+		0BD9CE682C9F930900E320C8 /* CharacterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItem.swift; sourceTree = "<group>"; };
+		0BD9CE6A2C9F944200E320C8 /* DiamongShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamongShape.swift; sourceTree = "<group>"; };
+		0BD9CE702CA1F49D00E320C8 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		0BD9CE722CA1FDBE00E320C8 /* LabelInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelInformation.swift; sourceTree = "<group>"; };
+		0BD9CE742CA1FEF500E320C8 /* IconInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconInformation.swift; sourceTree = "<group>"; };
+		0BD9CE762CA203D100E320C8 /* TransformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationView.swift; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		7555FF7B242A565900829871 /* DragonBallApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBallApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +49,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD9CE602C9F73A400E320C8 /* KMPNativeCoroutinesCore in Frameworks */,
+				0BD9CE652C9F73F200E320C8 /* KMPObservableViewModelSwiftUI in Frameworks */,
+				0BD9CE5E2C9F73A400E320C8 /* KMPNativeCoroutinesAsync in Frameworks */,
+				0BD9CE632C9F73F200E320C8 /* KMPObservableViewModelCore in Frameworks */,
+				0BD9CE6E2C9F96B700E320C8 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,27 @@
 				058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BD9CE592C9F727900E320C8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0BD9CE5A2C9F728E00E320C8 /* HomeScreen.swift */,
+				0BD9CE682C9F930900E320C8 /* CharacterItem.swift */,
+				0BD9CE6A2C9F944200E320C8 /* DiamongShape.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0BD9CE6F2CA1F48700E320C8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0BD9CE702CA1F49D00E320C8 /* DetailScreen.swift */,
+				0BD9CE722CA1FDBE00E320C8 /* LabelInformation.swift */,
+				0BD9CE742CA1FEF500E320C8 /* IconInformation.swift */,
+				0BD9CE762CA203D100E320C8 /* TransformationView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		42799AB246E5F90AF97AA0EF /* Frameworks */ = {
@@ -70,11 +117,14 @@
 		7555FF7D242A565900829871 /* iosApp */ = {
 			isa = PBXGroup;
 			children = (
+				0BD9CE6F2CA1F48700E320C8 /* Detail */,
+				0BD9CE592C9F727900E320C8 /* Home */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
+				0BD9CE662C9F7A5200E320C8 /* KMPObservableViewModel.swift */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -105,6 +155,11 @@
 			);
 			name = iosApp;
 			packageProductDependencies = (
+				0BD9CE5D2C9F73A400E320C8 /* KMPNativeCoroutinesAsync */,
+				0BD9CE5F2C9F73A400E320C8 /* KMPNativeCoroutinesCore */,
+				0BD9CE622C9F73F200E320C8 /* KMPObservableViewModelCore */,
+				0BD9CE642C9F73F200E320C8 /* KMPObservableViewModelSwiftUI */,
+				0BD9CE6D2C9F96B700E320C8 /* Kingfisher */,
 			);
 			productName = iosApp;
 			productReference = 7555FF7B242A565900829871 /* DragonBallApp.app */;
@@ -118,7 +173,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = orgName;
 				TargetAttributes = {
 					7555FF7A242A565900829871 = {
@@ -136,6 +191,9 @@
 			);
 			mainGroup = 7555FF72242A565900829871;
 			packageReferences = (
+				0BD9CE5C2C9F73A400E320C8 /* XCRemoteSwiftPackageReference "KMP-NativeCoroutines" */,
+				0BD9CE612C9F73F200E320C8 /* XCRemoteSwiftPackageReference "KMP-ObservableViewModel" */,
+				0BD9CE6C2C9F96B700E320C8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 7555FF7C242A565900829871 /* Products */;
 			projectDirPath = "";
@@ -184,8 +242,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD9CE672C9F7A5200E320C8 /* KMPObservableViewModel.swift in Sources */,
+				0BD9CE692C9F930900E320C8 /* CharacterItem.swift in Sources */,
+				0BD9CE752CA1FEF500E320C8 /* IconInformation.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				0BD9CE6B2C9F944200E320C8 /* DiamongShape.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				0BD9CE712CA1F49D00E320C8 /* DetailScreen.swift in Sources */,
+				0BD9CE772CA203D100E320C8 /* TransformationView.swift in Sources */,
+				0BD9CE5B2C9F728E00E320C8 /* HomeScreen.swift in Sources */,
+				0BD9CE732CA1FDBE00E320C8 /* LabelInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -302,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -321,12 +387,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "${TEAM_ID}";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
 				INFOPLIST_FILE = iosApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,12 +415,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iosApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "${TEAM_ID}";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../shared/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)",
 				);
 				INFOPLIST_FILE = iosApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,6 +456,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BD9CE5C2C9F73A400E320C8 /* XCRemoteSwiftPackageReference "KMP-NativeCoroutines" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rickclephas/KMP-NativeCoroutines.git";
+			requirement = {
+				kind = exactVersion;
+				version = "1.0.0-ALPHA-35-spm-async";
+			};
+		};
+		0BD9CE612C9F73F200E320C8 /* XCRemoteSwiftPackageReference "KMP-ObservableViewModel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rickclephas/KMP-ObservableViewModel.git";
+			requirement = {
+				kind = exactVersion;
+				version = "1.0.0-BETA-5";
+			};
+		};
+		0BD9CE6C2C9F96B700E320C8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BD9CE5D2C9F73A400E320C8 /* KMPNativeCoroutinesAsync */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9CE5C2C9F73A400E320C8 /* XCRemoteSwiftPackageReference "KMP-NativeCoroutines" */;
+			productName = KMPNativeCoroutinesAsync;
+		};
+		0BD9CE5F2C9F73A400E320C8 /* KMPNativeCoroutinesCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9CE5C2C9F73A400E320C8 /* XCRemoteSwiftPackageReference "KMP-NativeCoroutines" */;
+			productName = KMPNativeCoroutinesCore;
+		};
+		0BD9CE622C9F73F200E320C8 /* KMPObservableViewModelCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9CE612C9F73F200E320C8 /* XCRemoteSwiftPackageReference "KMP-ObservableViewModel" */;
+			productName = KMPObservableViewModelCore;
+		};
+		0BD9CE642C9F73F200E320C8 /* KMPObservableViewModelSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9CE612C9F73F200E320C8 /* XCRemoteSwiftPackageReference "KMP-ObservableViewModel" */;
+			productName = KMPObservableViewModelSwiftUI;
+		};
+		0BD9CE6D2C9F96B700E320C8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9CE6C2C9F96B700E320C8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7555FF73242A565900829871 /* Project object */;
 }
